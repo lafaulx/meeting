@@ -2,7 +2,7 @@
 
 window.onload = function() {
   var io = window.io,
-      socket = io('http://localhost:3000'),
+      socket = io('http://104.131.248.118'),
       speechEl = document.getElementById('speech'),
       usersEl = document.getElementById('users');
 
